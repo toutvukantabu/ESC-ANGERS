@@ -1,0 +1,115 @@
+SASS:
+
+dart-sass/sass sass/style.scss style.css --watch
+POUR RAJOUTER DU TEXTE SUR UNE IMAGE 
+couleur bleu:      rgb(53,117,159)
+
+couleur orange:    rgb(244,108,33)
+
+couleur noir:      rgb(45,56,65)
+
+couleur grise:     rgb(141,151,168) 
+
+font titre: Font name: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+/* Superposition simple */
+<div class=" overlay-image _b0 "><a href="URL_LIEN">
+ <img class=" image _b1 " src="IMAGE" alt="Alt text" />
+ <div class=" text _2 ">Image + texte
+  PAS DE HOVER</div>
+</a></div>
+
+
+csss$$$
+
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+/* Image originale */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Texte original */
+.overlay-image .text {
+ color: #fff;
+ font-size: 30px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+}
+
+bordure blanche 
+
+
+
+.img-mohani {
+    position: relative;
+    background: url(img/mohani.jpg) center center / cover no-repeat;
+    order: 2;
+    width: 40%;
+    filter: sepia(0.8);
+}
+.mohani-frame {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 93%;
+    height: 93%;
+    border: rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+.mohani-frame a  {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255,0.2);
+    text-decoration: none;
+    font-size: 2000%;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translatey(-50%);
+}
+
+ transition: all 1s ease;
+
+ box shadow bottom:
+Do this:
+
+box-shadow: 0 4px 2px -2px gray;
+
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+</div>
